@@ -17,7 +17,7 @@ public class Runner {
         boolean result = false;
 
         try {
-            result = flightSearcher.flightSearcher(moscow, warsaw);
+            result = flightSearcher.flightSearcher(warsaw, rio);
             if (!result) {
                 throw new RouteNotFoundException();
             }
